@@ -2,10 +2,10 @@ from os import environ
 import aiohttp
 from pyrogram import Client, filters
 
-API_ID = environ.get('API_ID',"11760418")
-API_HASH = environ.get('API_HASH',"1087bd9fc871216be0e86287e5c50ac3")
-BOT_TOKEN = environ.get('BOT_TOKEN',"6463692735:AAEGPGQuP4tIUwJ7FSBay8Y52wCW9MUFpU8")
-API_KEY = environ.get('API_KEY',"8b2760a598cb6699029452a2ff3afaf3068bebba")
+API_ID = environ.get('API_ID',"24953797")
+API_HASH = environ.get('API_HASH',"f5a80bf6f55664689631266f3eb6d1ce")
+BOT_TOKEN = environ.get('BOT_TOKEN',"6872448232:AAFNg-v_C5meULRnIxiZCDuiD1-gZywzDqM")
+API_KEY = environ.get('API_KEY',"e26eadf7050fc1af0ce5d082d40d78c6c013984c")
 
 bot = Client('sharedisk bot',
              api_id=API_ID,
